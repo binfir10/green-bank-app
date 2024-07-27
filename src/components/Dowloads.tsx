@@ -20,7 +20,7 @@ export default function Dowloads() {
           />
         </div>
       </div>
-      <img src="/assets/image-footer.svg" alt="" style={{ width: '500px' }} />
+      <img src="/assets/image-footer.svg" alt="" />
     </section>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
+import './MediaQueries.css'
 import Footer from './components/Footer.tsx'
 import Navbar from './components/Navbar.tsx'
 

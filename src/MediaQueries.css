@@ -1,0 +1,395 @@
+@media (max-width: 768px) {
+  main {
+    padding: 0 20px;
+  }
+
+  .layout-img {
+    display: none;
+  }
+
+  header {
+    padding: 10px;
+    justify-content: space-between;
+  }
+
+  .nav-mobile {
+    display: inline-flex;
+  }
+
+  .header-button {
+    display: none;
+  }
+
+  /* styles.css */
+  .menu-container {
+    position: absolute;
+    z-index: 50;
+    background-color: #37584d36;
+    backdrop-filter: blur(10px); /* Aplica un desenfoque de 10px */
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .menu-container.hidden {
+    display: none;
+  }
+
+  .menu-container.block {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    top: 40px;
+    right: 3%;
+    gap: 10px;
+    padding: 15px 20px;
+    border-radius: 15px;
+  }
+
+  .header-mobile-button {
+    background: none;
+    width: 120px;
+    height: 38px;
+    border-radius: 14px;
+    border: 1px solid #2bb32a;
+    color: white;
+    font-weight: 700;
+    font-family: 'M PLUS 1';
+    cursor: pointer;
+  }
+
+  .header-mobile-button:hover {
+    background-color: #2ab32a19;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .header-logo {
+    width: 120px;
+    height: 20px;
+  }
+
+  .header-button {
+    width: 120px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .footer-card {
+    display: none;
+  }
+
+  .footer-items {
+    padding: 0;
+    text-align: center;
+  }
+
+  .footer-contacts {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-copr {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button-primary {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 580px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  p {
+    font-size: 14px;
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 908px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-img {
+    width: 300px;
+    display: none;
+  }
+
+  .hero-title {
+    text-align: center;
+  }
+
+  .hero-title-vector {
+    width: 365px;
+  }
+
+  .hero-framer img {
+    width: 100px;
+  }
+
+  .info-container {
+    align-items: center;
+    width: 600px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .info-item-container {
+    align-items: center;
+    width: 180px;
+  }
+
+  .companies-container {
+    width: 100%;
+  }
+
+  .adventaje-container {
+    padding: 3rem 1rem;
+  }
+
+  .adventaje-card-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .adventaje-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adventaje-card img {
+    width: 100px;
+  }
+
+  .adventaje-details {
+    align-items: center;
+    text-align: center;
+  }
+
+  .credit-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0.5rem;
+  }
+
+  .credit-card-container {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 95%;
+  }
+
+  .credit-img {
+    width: 300px;
+  }
+
+  .dora-credit {
+    width: 100%;
+    top: -20rem;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+  }
+
+  .testimonial-card {
+    padding: 1rem 1rem;
+    gap: 10px;
+    height: 320px;
+  }
+
+  .testimonial-card img {
+    width: 48px;
+  }
+
+  .testimonial-user {
+    gap: 10px;
+  }
+
+  .testimonial-user img {
+    width: 36px;
+  }
+
+  .download-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-card-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .faqs-container {
+    padding: 3rem 1rem;
+  }
+
+  .faqs-container img {
+    display: none;
+  }
+
+  .faqs-card-container {
+    width: 100%;
+  }
+
+  .download-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .download-container img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-img {
+    width: 300px;
+  }
+
+  .hero-title {
+    text-align: center;
+  }
+
+  .hero-title-vector {
+    width: 270px;
+  }
+
+  .hero-framer img {
+    width: 100px;
+  }
+
+  .info-container {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .adventaje-container {
+    padding: 3rem 1rem;
+  }
+
+  .adventaje-card-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .adventaje-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adventaje-card img {
+    width: 100px;
+  }
+
+  .adventaje-details {
+    align-items: center;
+    text-align: center;
+  }
+
+  .credit-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+  }
+
+  .credit-card-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .credit-card-container h3 {
+    max-width: 100%;
+  }
+
+  .credit-card-container p {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .credit-img {
+    width: 300px;
+  }
+
+  .dora-credit {
+    width: 100%;
+    top: -20rem;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+  }
+
+  .testimonial-card {
+    padding: 1rem 1rem;
+    gap: 10px;
+    height: 320px;
+  }
+
+  .testimonial-card img {
+    width: 48px;
+  }
+
+  .testimonial-user {
+    gap: 10px;
+  }
+
+  .testimonial-user img {
+    width: 36px;
+  }
+
+  .download-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-card-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .faqs-container {
+    padding: 3rem 1rem;
+  }
+
+  .faqs-container img {
+    display: none;
+  }
+
+  .faqs-card-container {
+    width: 100%;
+  }
+  .download-container img {
+    width: 200px;
+  }
+}

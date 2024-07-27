@@ -1,7 +1,6 @@
 .hero-container {
   display: flex;
   width: 100%;
-  display: flex;
   justify-content: space-around;
   padding: 3rem 0;
 }
@@ -155,8 +154,13 @@
   margin-top: 20px;
 }
 
+.credit-card-container h3 {
+  max-width: 550px;
+}
+
 .credit-card-container p {
   width: 1800px;
+  max-width: 550px;
 }
 
 .credit-img {
@@ -246,6 +250,10 @@
 .download-store {
   display: flex;
   gap: 20px;
+}
+
+.download-container img {
+  width: 500px;
 }
 .faqs-container {
   display: flex;
