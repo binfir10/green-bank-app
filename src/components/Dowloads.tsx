@@ -8,19 +8,15 @@ export default function Dowloads() {
         </h3>
         <p>Easy to use mobile app that support on android and ios.</p>
         <div className="download-store">
-          <img
-            src="/assets/App_Store.svg"
-            alt=""
-            style={{ width: '155px', height: '64px' }}
-          />
-          <img
-            src="/assets/Google_Play.svg"
-            alt=""
-            style={{ width: '170px', height: '64px' }}
-          />
+          <img src="/assets/App_Store.svg" alt="" className="app-store" />
+          <img src="/assets/Google_Play.svg" alt="" className="google-play" />
         </div>
       </div>
-      <img src="/assets/image-footer.svg" alt="" />
+      <img
+        src="/assets/image-footer.svg"
+        alt=""
+        className="download-container-img"
+      />
     </section>
   )
 }

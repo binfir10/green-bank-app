@@ -75,7 +75,7 @@ export default function Faqs() {
           </div>
         ))}
       </div>
-      <img src="/assets/dora-faqs.svg" alt="" />
+      <img src="/assets/dora-faqs.svg" alt="" className='faqs-container-img'/>
     </section>
   )
 }
