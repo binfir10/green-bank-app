@@ -16,7 +16,7 @@ Green Bank es una landing page diseñada para presentar los servicios de un banc
 1. **Clona el repositorio**
 
    ```bash
-   git clone https://github.com/tuusuario/green-bank-app.git
+   git clone https://github.com/brianfigueroa10/green-bank-app.git
    cd green-bank-app
    ```
 
